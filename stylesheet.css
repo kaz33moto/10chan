@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Lobster', cursive;
+}
+
+body{
+  background-color: #333333;
+  color: white;
+}
+
+header{
+  background-color: #bbbbbb;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  color: #333333;
+  opacity: 0.8;
+  z-index: 10;
+}
+
+.header-logo{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+header a{
+  color: #333333;
+  text-decoration: none;
+}
+
+main{
+  margin-top: 90px;
+  margin-left: 20%;
+}
+
+.message{
+  background-color: white;
+  color: #333333;
+  opacity: 0.8;
+  padding: 1px 20px;
+  margin: 5px 100px 0px 0px;
+  z-index: 9;
+  border-radius: 3px;
+}
+
+.form{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: #bbbbbb;
+  color: #333333;
+  width: 400px;
+  height: 300px;
+  opacity: 0.8;
+  border-top-right-radius: 3px;
+}
+
+.inForm{
+  margin: 30px 30px 30px 50px;
+}
+
+.name{
+  margin: 0px 0px 20px 0px;
+  position: fixed;
+  left: 100px;
+}
+
+time{
+  float: right;
+}
+
+.main-txt{
+  margin: 0px 0px 20px 0px;
+  position: fixed;
+  left: 100px;
+  width: 250px;
+  height: 150px;
+}
+
+.submit-bottun{
+  margin: 150px 0px 0px 0px;
+}
